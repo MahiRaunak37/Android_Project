@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BarCodeScanner</string>
+    <string name="ScantTitle">Attendance using Face Recognition System</string>
+    <string name="scan_qr">Scan QR</string>
+</resources>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".signup">
+
+    <TextView
+        android:id="@+id/Stitle"
+        android:layout_width="243dp"
+        android:layout_height="45dp"
+        android:layout_margin="25dp"
+        android:text="face_recogniser"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/SimageView"
+        android:layout_width="175dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="20sp"
+        android:layout_below="@+id/Stitle"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/img"
+        />
+
+    <EditText
+        android:id="@+id/SFirstName"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/SimageView"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="First Name"/>
+
+    <EditText
+        android:id="@+id/Slastname"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Last Name"
+        android:layout_margin="20sp"
+        android:layout_below="@+id/SFirstName"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/Semail"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email Address"
+        android:layout_below="@+id/Slastname"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20sp"
+        />
+
+    <EditText
+        android:id="@+id/SPassword"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/Semail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginBottom="20sp"
+        android:hint="Password"
+        android:autofillHints="Password"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+
+    <EditText
+        android:id="@+id/SRePassword"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/SPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginBottom="20sp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Retype Password " />
+
+    <RadioButton
+        android:id="@+id/SgenderMale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="40sp"
+        android:layout_below="@+id/SRePassword"
+        />
+
+    <RadioButton
+        android:id="@+id/SgenderFemale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Famale"
+        android:layout_below="@+id/SRePassword"
+        android:layout_toRightOf="@+id/SgenderMale"
+        android:layout_marginTop="20sp"
+        android:layout_marginLeft="50sp"/>
+
+    <Button
+        android:id="@+id/Ssignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign UP"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="100sp"
+        android:layout_below="@+id/SgenderMale"
+        />
+
+    <Button
+        android:id="@+id/Sreset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_below="@id/SgenderMale"
+        android:layout_toRightOf="@id/Ssignup"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="40sp"
+        />
+
+</RelativeLayout>

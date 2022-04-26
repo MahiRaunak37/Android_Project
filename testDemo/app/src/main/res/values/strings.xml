@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">testDemo</string>
+    <string name="nameHInt">your Name display Here</string>
+    <string name="yourName">Enter your name</string>
+</resources>

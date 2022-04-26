@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/blue"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:text="The Invisible Man's To Do List"
+        android:backgroundTint="#98B4FE"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/pink"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:text="The Pink Panther's To Do List"
+        android:backgroundTint="#E071F7 "
+        android:textColor="@color/black"/>
+
+
+    <Button
+        android:id="@+id/clickList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="130dp"
+        android:visibility="invisible"
+        android:text="to do to do to do"/>
+
+</LinearLayout>

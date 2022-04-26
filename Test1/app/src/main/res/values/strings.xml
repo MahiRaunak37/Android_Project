@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Test1</string>
+    <string name="create_app">Create App</string>
+    <string name="btnName">Create New Contact</string>
+    <string name="name">Name</string>
+    <string name="nameHint">Please enter your name</string>
+    <string name="hintNumber">Please Enter your number</string>
+    <string name="hintSite">Please Enter your website</string>
+    <string name="hintLocation">Please Enter your Location</string>
+</resources>
